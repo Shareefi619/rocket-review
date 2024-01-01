@@ -1,8 +1,8 @@
 'use client';
 import Link from 'next/link'
 import React from 'react'
-import BannerArrow1 from "@/assets/images/banner/BannerArrow1.svg";
-import BannerArrow2 from "@/assets/images/banner/BannerArrow2.svg";
+import BannerArrow1 from "@/assets/images/banner/bannerArrow1.svg";
+import BannerArrow2 from "@/assets/images/banner/bannerArrow2.svg";
 import WebPage from "@/assets/images/banner/webpage.webp";
 import comma from "@/assets/images/banner/comma.svg";
 import Eric from "@/assets/images/banner/Eric.webp";
