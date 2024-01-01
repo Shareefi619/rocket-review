@@ -1,0 +1,257 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-bg {
+  background: rgb(247, 247, 247);
+  background: linear-gradient(
+    0deg,
+    rgba(247, 247, 247, 1) 45%,
+    rgba(239, 253, 255, 1) 46%,
+    rgba(234, 252, 255, 1) 46%
+  );
+}
+
+.bg-colorPricing {
+  background-color: rgb(247, 247, 247);
+}
+.background-img {
+  background-image: url("../assets/images/banner/bg-section.png");
+}
+
+.footer-bg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 12%,
+    rgba(247, 247, 247, 1) 13%
+  );
+}
+
+.transform-tag {
+  transform: rotate(-13.63deg);
+}
+
+.bg-color {
+  background-color: rgb(234, 255, 253);
+}
+
+.w3l-faq-6 .faq-pagev .flipIn,
+.w3l-faq-6 .faq-pagev h1,
+.w3l-faq-6 .faq-pagev ul li {
+  -webkit-animation: flipdown 0.5s ease both;
+  animation: flipdown 0.5s ease both;
+}
+
+.w3l-faq-6 .faq-pagev .no-select,
+.w3l-faq-6 .faq-pagev h4 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.w3l-faq-6 .faq-pagev h4 {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 600;
+  display: block;
+  background-color: #fefffa;
+  margin: 0;
+  cursor: pointer;
+  color: #141414;
+}
+
+.w3l-faq-6 .faq-pagev p {
+  color: black;
+  font-size: 18px;
+  line-height: 26px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+  margin: 0;
+}
+
+.w3l-faq-6 .faq-pagev ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 40px;
+  margin-top: 60px;
+}
+.color-shift {
+  background-color: rgb(224, 243, 228);
+}
+.w3l-faq-6 .faq-pagev ul li {
+  position: relative;
+  padding: 0px 40px 0px 15px;
+  border: 1px solid rgb(37, 232, 95);
+  margin: 0 0 10px 0;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -moz-border-radius: 6px;
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+}
+
+.w3l-faq-6 .faq-pagev ul li:nth-of-type(1) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.w3l-faq-6 .faq-pagev ul li:nth-of-type(2) {
+  -webkit-animation-delay: 0.75s;
+  animation-delay: 0.75s;
+}
+
+.w3l-faq-6 .faq-pagev ul li:nth-of-type(3) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.w3l-faq-6 .faq-pagev ul li:nth-of-type(4) {
+  -webkit-animation-delay: 1.25s;
+  animation-delay: 1.25s;
+}
+
+.w3l-faq-6 .faq-pagev ul li:nth-of-type(5) {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.w3l-faq-6 .faq-pagev ul li:nth-of-type(6) {
+  -webkit-animation-delay: 1.75s;
+  animation-delay: 1.75s;
+}
+
+.w3l-faq-6 .faq-pagev ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 15px;
+}
+
+.w3l-faq-6 .faq-pagev ul li i:before,
+.w3l-faq-6 .faq-pagev ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 3px;
+  height: 9px;
+}
+
+.w3l-faq-6 .faq-pagev ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+
+.w3l-faq-6 .faq-pagev ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+.w3l-faq-6 .faq-pagev ul li input[type="checkbox"] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+
+.w3l-faq-6 .faq-pagev ul li input[type="checkbox"]:checked ~ p {
+  transform: translate(0, 0);
+}
+
+.w3l-faq-6 .faq-pagev ul li input[type="checkbox"]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+.w3l-faq-6 .faq-pagev ul li input[type="checkbox"]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+.faq-pagev ul li {
+  position: relative;
+  border: 1px solid #f2f2f2;
+  margin: 0 0 10px 0;
+  border-radius: 6px;
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+}
+
+.faq-pagev ul li h4 {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: normal;
+  display: block;
+  background-color: #fefffa;
+  margin: 0;
+  cursor: pointer;
+  color: #141414;
+  padding: 10px;
+}
+
+.faq-pagev ul li p {
+  color: #8c8c8c;
+  font-size: 15px;
+  line-height: 26px;
+  position: relative;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+  padding: 0 10px;
+}
+
+.faq-pagev ul li input[type="checkbox"] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+
+.faq-pagev ul li input[type="checkbox"]:checked ~ p {
+  max-height: 800px;
+  opacity: 1;
+  padding: 10px;
+}
+
+.nav-sublink:hover > .ti-arrow {
+  display: block !important;
+}
+
+
+
+
+/* talha css start */
+
+.open-menu,.inner-menu-top{display: none;}
+
+@media (max-width:1023px) {
+    
+    
+    .open-menu,.inner-menu-top{display: block;}
+    .main-menu {position: absolute;top: 0;background: white;width: 100%;padding: 0 40px;z-index: 2;left: 0;padding: 30px;display: none;}
+    .responsive-menu {justify-content: space-between;}
+    .menu-top {display: block;}
+    .responsive-menu a.flex.items-start {margin: 0;}
+    .inner-menu-top {display: flex;justify-content: space-between;}
+    .main-menu .left {flex-direction: column;align-items: flex-start;width: 50%;margin: 40px auto 0 auto;}
+    .main-menu .right {flex-direction: column;align-items: flex-start;width: 50%;margin: 20px auto 0 auto;border-top: 1px solid rgb(230, 230, 234);padding: 20px 0 0 0;}
+    .main-menu .relative {margin: 0 !important;}
+    .main-menu .sub-menu {position: initial;}
+    .main-menu .right button {margin: 20px 0 0 0 !important;}
+    .main-menu.main-menu-opened {display: block;}
+}
+/* talha css end */
+
+
