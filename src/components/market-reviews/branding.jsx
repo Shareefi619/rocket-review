@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import reviewshake from "@/assets/images/banner/reviewshake.webp";
+import reviewShake from "@/assets/images/banner/reviewShake.webp";
 const Branding = () => {
     return (
         <>
@@ -12,7 +12,7 @@ const Branding = () => {
                     </div>
                 </div>
                 <div className='background-img w-full '>
-                    <Image src={reviewshake} width={1100} height={947} className='my-0 mx-auto max-w-full h-auto'/>
+                    <Image src={reviewShake} width={1100} height={947} className='my-0 mx-auto max-w-full h-auto'/>
                 </div>
             </section>
         </>

@@ -21,7 +21,7 @@ const HeroBanner = () => {
                             <h1 className=' text-white w-10/12 text-center text-7xl xl:text-5xl md:text-4xl md:text-left font-extrabold'>Generate reviews <br /> on auto-pilot</h1>
                         </div>
                         <div className='flex items-center justify-center mb-6 xl:mx-8'>
-                            <p className='text-2xl text-white my-4 xl:text-xl md:text-lg'>Online reviews are core to your brand awareness. Get more reviews faster with Reviewshake on 85+ websites, boost your social proof and increase your revenue.</p>
+                            <p className='text-2xl text-white my-4 xl:text-xl md:text-lg'>Online reviews are core to your brand awareness. Get more reviews faster with Rocket Review Tool on 85+ websites, boost your social proof and increase your revenue.</p>
                         </div>
                         <div className='flex items-center justify-center md:flex md:flex-col md:items-center md:justify-center gap-4 md:gap-4 '>
                             <Link href="/signup" className='bg-red-500 text-black hover:text-white py-4 px-10 text-xl md:text-base md:py-2 md:px-6 xl:py-2 xl:px-8 xl:text-lg font-semibold rounded-lg'>Try Free For 14 Days</Link>
@@ -49,7 +49,7 @@ const HeroBanner = () => {
                 <div className='w-full flex items-center justify-center bg-white px-4 py-2 mt-16 mx-36 xl:px-2 md:px-0 md:mx-0 rounded-lg md:hidden'>
                     <Image src={comma} alt='comma' className='relative w-40 bottom-10 right-4 xl:w-20 md:w-14' />
                     <div>
-                        <p className='text-2xl font-bold right-9 bottom-8 xl:text-lg'>"We have generated over 2,000 reviews for our clients using Reviewshake."</p>
+                        <p className='text-2xl font-bold right-9 bottom-8 xl:text-lg'>"We have generated over 2,000 reviews for our clients using Rocket Review Tool."</p>
                         <div className='flex items-start justify-start mt-4'>
                             <div className='flex gap-4'>
                                 <Image src={Eric} alt='eric' className='w-12 lg:w-10 lg:h-10 rounded-3xl' />

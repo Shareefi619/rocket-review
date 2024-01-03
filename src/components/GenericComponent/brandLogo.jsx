@@ -18,7 +18,7 @@ const BrandLogo = () => {
                     <div className="text-center w-1/2 md:w-full">
                         <div className="flex items-center justify-center">
                             <div className="flex-1 border-t border-gray-300"></div>
-                            <div className="mx-4 text-black text-lg md:text-sm uppercase font-bold">1000+ COMPANIES TRUST REVIEWSHAKE</div>
+                            <div className="mx-4 text-black text-lg md:text-sm uppercase font-bold">1000+ COMPANIES TRUST Rocket Review Tool</div>
                             <div className="flex-1 border-t border-gray-300"></div>
                         </div>
                     </div>

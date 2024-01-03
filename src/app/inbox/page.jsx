@@ -21,7 +21,7 @@ const page = () => {
 
     const reportData = {
         imgSrc: number,
-        title: 'Get a dedicated number for Reviewshake only',
+        title: 'Get a dedicated number for Rocket Review Tool only',
         subtitle: "Activating the Inbox means that you will have your dedicated phone number. All review requests and outgoing SMS will be sent from this number."
     }
     return (

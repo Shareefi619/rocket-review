@@ -50,7 +50,7 @@ const NavBar = () => {
   return (
     <>
       <nav
-        className="menu-top w-full flex items-center justify-center gap-28 py-5 px-12 2xl:px-0 2xl:py-6 2xl:gap-0 xl:px-8 xl:py-6 xl:gap-0 bg-black/90">
+        className="menu-top w-full sm:w-max-[650px] flex items-center justify-center gap-28 py-5 px-12 2xl:px-0 2xl:py-6 2xl:gap-0 xl:px-8 xl:py-6 xl:gap-0 bg-black/90">
         {/* Navbar */}
         <div className="responsive-menu flex items-center justify-center gap-24 2xl:gap-6 xl:gap-6">
           <Link

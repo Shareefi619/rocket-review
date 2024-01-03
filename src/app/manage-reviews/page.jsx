@@ -22,7 +22,7 @@ const page = () => {
 
     const analyticData = {
         title: "Stay on top of your reviews",
-        subtitle: "Keep a 100% response rate by getting notified of new reviews and seeing reviews that have not been answered. Respond directly from Reviewshake to Google reviews.",
+        subtitle: "Keep a 100% response rate by getting notified of new reviews and seeing reviews that have not been answered. Respond directly from Rocket Review Tool to Google reviews.",
         imgSrc: StayOnTop
     }
     const teamData = {
