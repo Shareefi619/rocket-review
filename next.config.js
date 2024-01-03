@@ -13,11 +13,7 @@ const nextConfig = {
       },
       {
         test: /\.svg$/,
-        issuer: {
-          test: /\.(js|ts)x?$/,
-          // for webpack 5 use
-          // { and: [/\.(js|ts)x?$/] }
-        },
+        issuer: /\.(js|ts)x?$/,
         use: ['@svgr/webpack'],
       }
     );
