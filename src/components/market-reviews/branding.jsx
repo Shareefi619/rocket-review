@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-// import reviewShake from "@/assets/images/banner/reviewShake.webp";
+import reviewShake from "@/assets/images/banner/reviewshake.webp";
 const Branding = () => {
     return (
         <>
@@ -11,9 +11,9 @@ const Branding = () => {
                         <p className='text-2xl my-0 mx-auto text-center max-w-[1000px]' style={{ color: 'rgb(43, 43, 89)' }}>Show off your top reviews to the world. Using our social sharing setup, you can automatically post reviews on Google, Facebook, Twitter. This will boost social proof and increase trust in your brand.</p>
                     </div>
                 </div>
-                {/* <div className='background-img w-full '>
+                <div className='background-img w-full '>
                     <Image src={reviewShake} width={1100} height={947} className='my-0 mx-auto max-w-full h-auto'/>
-                </div> */}
+                </div>
             </section>
         </>
     )
