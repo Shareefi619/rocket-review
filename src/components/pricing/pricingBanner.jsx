@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
-import BannerArrow1 from "../../../public/svg/BannerArrow1.svg";
-import BannerArrow2 from "../../../public/svg/BannerArrow2.svg";
+import BannerArrow1 from "../../../public/svg/bannerArrow1.svg";
+import BannerArrow2 from "../../../public/svg/bannerArrow2.svg";
 const PricingBanner = () => {
     return (
         <>
