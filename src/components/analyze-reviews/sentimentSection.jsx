@@ -1,5 +1,5 @@
 import React from 'react'
-import breakdown from "@/assets/svg/breakdown.svg"
+import breakdown from "../../../public/svg/breakdown.svg"
 import Image from 'next/image';
 import Link from 'next/link';
 const SentimentSection = () => {

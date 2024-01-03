@@ -4,7 +4,7 @@ import React from 'react'
 import logo from "@/assets/images/logo/rocketLogo.png";
 import rocket from "@/assets/images/logo/logoRocket.png";
 import Link from 'next/link';
-import link from "@/assets/svg/link.svg";
+import link from "../../../public/svg/link.svg";
 import { useState } from 'react';
 
 const Footer = () => {

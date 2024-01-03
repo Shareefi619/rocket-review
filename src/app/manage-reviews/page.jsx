@@ -2,16 +2,16 @@ import TemplateSection from '@/components/GenericComponent/templateSection'
 import NavBar from '@/components/Home/Navbar/NavBar'
 import HeroBannerTwo from '@/components/GenericComponent/HeroBannerTwo'
 import React from 'react'
-import tempImg from "@/assets/svg/360-degree.svg";
+import tempImg from "../../../public/svg/360-degree.svg";
 import AnalyticSection from '@/components/GenericComponent/analyticSection';
 import StayOnTop from '@/assets/images/banner/stay-on-top.webp';
 import insight from '@/assets/images/banner/share-insights.webp';
 import CampaignSection from '@/components/GenericComponent/campaignSection';
-import reports from '@/assets/svg/reports.svg';
+import reports from '../../../public/svg/reports.svg';
 import Banner from '@/components/Home/Banner/banner';
 import Footer from '@/components/Footer/footer';
 import Mike from "@/assets/images/logo/mike.webp";
-import heroImg from '@/assets/svg/hero-image.svg';
+import heroImg from '../../../public/svg/hero-image.svg';
 
 const page = () => {
     const tempData = {

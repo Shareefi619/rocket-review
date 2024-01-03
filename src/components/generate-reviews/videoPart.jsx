@@ -1,8 +1,4 @@
-import Image from 'next/image'
 import React from 'react'
-import avatar from "@/assets/images/logo/avatar.webp";
-import review from "@/assets/images/banner/review.svg";
-import Link from 'next/link';
 const VideoPart = () => {
 
     return (

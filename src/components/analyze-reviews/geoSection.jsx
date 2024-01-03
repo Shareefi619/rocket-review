@@ -1,5 +1,5 @@
 import React from 'react'
-import map from "@/assets/svg/geo-map-reviews.svg"
+import map from "../../../public/svg/geo-map-reviews.svg"
 import Image from 'next/image'
 const GeoSection = () => {
     return (

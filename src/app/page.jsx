@@ -6,7 +6,7 @@ import GenericSection from "@/components/GenericComponent/genericComponent"
 import GenericSocialSection from "@/components/GenericComponent/socialComponent";
 import reviewSection from "@/assets/images/banner/reviewSection.webp"
 import mike from '@/assets/images/logo/mike.webp';
-import review from '@/assets/images/banner/review.svg';
+import review from '../../public/svg/review.svg';
 import avatar from "@/assets/images/logo/avatar.webp";
 import progress from "@/assets/images/banner/progress.webp";
 import brad from "@/assets/images/banner/brad.webp";

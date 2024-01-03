@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
-import samsung from "@/assets/images/BrandLogo/samsung.svg";
-import crowncaliber from "@/assets/images/BrandLogo/crown&caliber.svg";
+import samsung from "../../../public/svg/samsung.svg";
+import crowncaliber from "../../../public/svg/crown&caliber.svg";
 import keystone from "@/assets/images/BrandLogo/keystone.webp";
-import localclarity from "@/assets/images/BrandLogo/localclarity.svg";
-import pwc from "@/assets/images/BrandLogo/pwc.svg";
+import localclarity from "../../../public/svg/localclarity.svg";
+import pwc from "../../../public/svg/pwc.svg";
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 const BrandLogo = () => {

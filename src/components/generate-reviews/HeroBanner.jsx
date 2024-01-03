@@ -1,13 +1,13 @@
 import React from 'react'
-import BannerArrow1 from "@/assets/images/banner/BannerArrow1.svg";
-import BannerArrow2 from "@/assets/images/banner/BannerArrow2.svg";
+import BannerArrow1 from "../../../public/svg/BannerArrow1.svg";
+import BannerArrow2 from "../../../public/svg/BannerArrow2.svg";
 import Link from 'next/link';
 import Image from 'next/image';
-import comma from "@/assets/images/banner/comma.svg";
+import comma from "../../../public/svg/comma.svg";
 import Eric from "@/assets/images/banner/Eric.webp";
-import review from "@/assets/images/banner/review.svg";
-import thumbsUp from '@/assets/svg/thumbs-up.svg';
-import thumbsDown from "@/assets/svg/thumbs-down.svg";
+import review from "../../../public/svg/review.svg";
+import thumbsUp from '../../../public/svg/thumbs-up.svg';
+import thumbsDown from "../../../public/svg/thumbs-down.svg";
 const HeroBanner = () => {
     return (
         <>

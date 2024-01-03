@@ -3,14 +3,14 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import isabella from "@/assets/images/banner/isabela.webp";
 import richard from "@/assets/images/banner/richard.jpeg";
-import amazon from "@/assets/svg/amazon.svg";
-import starfull from "@/assets/svg/star-full.svg"
-import star from "@/assets/svg/star.svg";
-import triangle from "@/assets/svg/triangle.svg";
-import whiteStar from "@/assets/svg/whiteStar.svg";
-import facebook from "@/assets/svg/facebook.svg";
-import google from "@/assets/svg/google.svg";
-import comma from "@/assets/svg/comma.svg";
+import amazon from "../../../public/svg/amazon.svg";
+import starfull from "../../../public/svg/star-full.svg"
+import star from "../../../public/svg/star.svg";
+import triangle from "../../../public/svg/triangle.svg";
+import whiteStar from "../../../public/svg/whiteStar.svg";
+import facebook from "../../../public/svg/facebook.svg";
+import google from "../../../public/svg/google.svg";
+import comma from "../../../public/svg/comma.svg";
 import Link from 'next/link';
 const Widgets = () => {
     const [activeTab, setActiveTab] = useState('Slider');

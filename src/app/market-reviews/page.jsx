@@ -6,12 +6,12 @@ import Widgets from '@/components/market-reviews/widgets';
 import TemplateSection from '@/components/GenericComponent/templateSection';
 import snippet from "@/assets/images/banner/snippet.webp";
 import AnalyticSection from '@/components/GenericComponent/analyticSection';
-import email from "@/assets/svg/personalize-email.svg";
+import email from "../../../public/svg/personalize-email.svg";
 import Branding from '@/components/market-reviews/branding';
 import BrandLogo from '@/components/GenericComponent/brandLogo';
 import Banner from '@/components/Home/Banner/banner';
 import Footer from '@/components/Footer/footer';
-import heroImg from '@/assets/svg/hero-image.svg';
+import heroImg from '../../../public/svg/hero-image.svg';
 
 const page = () => {
     const bannerData = {

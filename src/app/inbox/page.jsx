@@ -1,11 +1,11 @@
 import HeroBannerTwo from '@/components/GenericComponent/HeroBannerTwo'
 import NavBar from '@/components/Home/Navbar/NavBar'
 import brad from "@/assets/images/banner/brad.webp";
-import inbox from "@/assets/svg/inbox-hero.svg"
+import inbox from "../../../public/svg/inbox-hero.svg"
 import CustomerLoyalty from '@/components/inbox/customerLoyalty';
 import Feedback from '@/components/inbox/feedback';
 import CampaignSection from '@/components/GenericComponent/campaignSection';
-import number from "@/assets/svg/dedicated-number.svg"
+import number from "../../../public/svg/dedicated-number.svg"
 import Banner from '@/components/Home/Banner/banner';
 import Footer from '@/components/Footer/footer';
 const page = () => {

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import sms from "@/assets/svg/2-way-sms.svg"
+import sms from "../../../public/svg/2-way-sms.svg"
 import Image from 'next/image'
 
 const CustomerLoyalty = () => {

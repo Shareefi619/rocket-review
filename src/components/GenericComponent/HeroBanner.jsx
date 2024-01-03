@@ -1,18 +1,18 @@
 'use client';
 import Link from 'next/link'
 import React from 'react'
-import BannerArrow1 from "@/assets/images/banner/bannerArrow1.svg";
-import BannerArrow2 from "@/assets/images/banner/bannerArrow2.svg";
+import BannerArrow1 from "../../../public/svg/bannerArrow1.svg";
+import BannerArrow2 from "../../../public/svg/bannerArrow2.svg";
 import WebPage from "@/assets/images/banner/webpage.webp";
-import comma from "@/assets/images/banner/comma.svg";
+import comma from "../../../public/svg/comma.svg";
 import Eric from "@/assets/images/banner/Eric.webp";
-import review from "@/assets/images/banner/review.svg";
+import review from "../../../public/svg/review.svg";
 import Image from 'next/image';
-import samsung from "@/assets/images/BrandLogo/samsung.svg";
-import crowncaliber from "@/assets/images/BrandLogo/crown&caliber.svg";
+import samsung from "../../../public/svg/samsung.svg";
+import crowncaliber from "../../../public/svg/crown&caliber.svg";
 import keystone from "@/assets/images/BrandLogo/keystone.webp";
-import localclarity from "@/assets/images/BrandLogo/localclarity.svg";
-import pwc from "@/assets/images/BrandLogo/pwc.svg";
+import localclarity from "../../../public/svg/localclarity.svg";
+import pwc from "../../../public/svg/pwc.svg";
 const brandLogo = [samsung, pwc, localclarity, crowncaliber, keystone];
 import { usePathname } from 'next/navigation';
 const HeroBanner = ({ title, titleRemain, subtitle }) => {

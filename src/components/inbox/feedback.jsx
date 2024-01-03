@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import feedback from "@/assets/svg/private-feedback.svg"
+import feedback from "../../../public/svg/private-feedback.svg"
 const Feedback = () => {
     return (
         <section className='py-24 bg-blue-400 md:py-16'>

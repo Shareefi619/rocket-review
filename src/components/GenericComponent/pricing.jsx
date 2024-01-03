@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import check from "@/assets/svg/check.svg";
+import check from "../../../public/svg/check.svg";
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 
