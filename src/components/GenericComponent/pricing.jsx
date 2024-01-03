@@ -72,11 +72,11 @@ const Pricing = ({ title, imgSrc, imgPosition, person }) => {
 
 
                     </div>
-                    <div class="py-5 mt-10 mb-16 mx-20 px-6 lg:mx-auto lg:px-2 xl:mx-auto xl:py-2 bg-gray-200 rounded-lg">
-                        <div class="flex flex-col items-start justify-start p-4">
-                            <h1 class="text-black text-2xl font-bold lg:text-xl">Risk Free</h1>
-                            <p class="text-black/75 text-xl my-4 lg:text-lg lg:my-2">At the end of your trial, you may downgrade to our basic<strong> Free Plan</strong></p>
-                            <p class="text-black/75 text-base my-4 lg:my-2">2 review profiles, 100 email invites, 1 user, 2 video reviews.</p>
+                    <div className="py-5 mt-10 mb-16 mx-20 px-6 lg:mx-auto lg:px-2 xl:mx-auto xl:py-2 bg-gray-200 rounded-lg">
+                        <div className="flex flex-col items-start justify-start p-4">
+                            <h1 className="text-black text-2xl font-bold lg:text-xl">Risk Free</h1>
+                            <p className="text-black/75 text-xl my-4 lg:text-lg lg:my-2">At the end of your trial, you may downgrade to our basic<strong> Free Plan</strong></p>
+                            <p className="text-black/75 text-base my-4 lg:my-2">2 review profiles, 100 email invites, 1 user, 2 video reviews.</p>
                         </div>
                     </div>
 

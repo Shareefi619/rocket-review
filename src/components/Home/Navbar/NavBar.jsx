@@ -91,7 +91,7 @@ const NavBar = () => {
                   onClick={() => toggleSubMenu(index)}
                 >
                   <div className="flex items-center gap-3 hover:text-red-500">
-                    <Link href={item.link} class="nav-link ">
+                    <Link href={item.link} className="nav-link ">
                       {item.title}
                     </Link>
                     {(item.title === "Solutions" ||
