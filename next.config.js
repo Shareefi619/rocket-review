@@ -2,8 +2,6 @@ const nextConfig = {
   webpack: (config) => {
     config.module.rules.push({
       test: /\.(mp4|webm)$/,
-      test: /\.svg$/,
-      use: "file-loader",
       use: {
         loader: "file-loader",
         options: {
