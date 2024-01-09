@@ -92,7 +92,7 @@
 .w3l-faq-6 .faq-pagev ul li {
   position: relative;
   padding: 0px 40px 0px 15px;
-  border: 1px solid rgb(37, 232, 95);
+  border: 1px solid black;
   margin: 0 0 10px 0;
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -228,30 +228,82 @@
 .nav-sublink:hover > .ti-arrow {
   display: block !important;
 }
+/* Media Query for small screens (max-width: 650px) */
+@media (max-width: 650px) {
+  .w3l-faq-6 .faq-pagev ul {
+    grid-template-columns: 1fr; /* Change to a single column for small screens */
+  }
 
+  .w3l-faq-6 .faq-pagev ul li {
+    width: 100%; /* Make each item take the full width */
+  }
 
-
+  .w3l-faq-6 .faq-pagev ul li h4 {
+    font-size: 20px; /* You can adjust the font size for small screens if needed */
+  }
+}
 
 /* talha css start */
 
-.open-menu,.inner-menu-top{display: none;}
+.open-menu,
+.inner-menu-top {
+  display: none;
+}
 
-@media (max-width:1023px) {
-    
-    
-    .open-menu,.inner-menu-top{display: block;}
-    .main-menu {position: absolute;top: 0;background: white;width: 100%;padding: 0 40px;z-index: 2;left: 0;padding: 30px;display: none;}
-    .responsive-menu {justify-content: space-between;}
-    .menu-top {display: block;}
-    .responsive-menu a.flex.items-start {margin: 0;}
-    .inner-menu-top {display: flex;justify-content: space-between;}
-    .main-menu .left {flex-direction: column;align-items: flex-start;width: 50%;margin: 40px auto 0 auto;}
-    .main-menu .right {flex-direction: column;align-items: flex-start;width: 50%;margin: 20px auto 0 auto;border-top: 1px solid rgb(230, 230, 234);padding: 20px 0 0 0;}
-    .main-menu .relative {margin: 0 !important;}
-    .main-menu .sub-menu {position: initial;}
-    .main-menu .right button {margin: 20px 0 0 0 !important;}
-    .main-menu.main-menu-opened {display: block;}
+@media (max-width: 1023px) {
+  .open-menu,
+  .inner-menu-top {
+    display: block;
+  }
+  .main-menu {
+    position: absolute;
+    top: 0;
+    background: white;
+    width: 100%;
+    padding: 0 40px;
+    z-index: 2;
+    left: 0;
+    padding: 30px;
+    display: none;
+  }
+  .responsive-menu {
+    justify-content: space-between;
+  }
+  .menu-top {
+    display: block;
+  }
+  .responsive-menu a.flex.items-start {
+    margin: 0;
+  }
+  .inner-menu-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-menu .left {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin: 40px auto 0 auto;
+  }
+  .main-menu .right {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin: 20px auto 0 auto;
+    border-top: 1px solid rgb(230, 230, 234);
+    padding: 20px 0 0 0;
+  }
+  .main-menu .relative {
+    margin: 0 !important;
+  }
+  .main-menu .sub-menu {
+    position: initial;
+  }
+  .main-menu .right button {
+    margin: 20px 0 0 0 !important;
+  }
+  .main-menu.main-menu-opened {
+    display: block;
+  }
 }
 /* talha css end */
-
-

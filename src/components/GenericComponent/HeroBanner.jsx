@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import BannerArrow1 from "../../../public/svg/bannerArrow1.svg";
 import BannerArrow2 from "../../../public/svg/bannerArrow2.svg";
-import WebPage from "@/assets/images/banner/webpage.webp";
+import WebPage from "@/assets/images/banner/webpage.png";
 import comma from "../../../public/svg/comma.svg";
 import Eric from "@/assets/images/banner/Eric.webp";
 import review from "../../../public/svg/review.svg";
@@ -19,16 +19,16 @@ const HeroBanner = ({ title, titleRemain, subtitle }) => {
     const router = usePathname();
     return (
         <>
-            <div className='w-full flex flex-col items-center justify-center bg-black/90 p-10 2xl:p-2 xl:p-12 md:p-4 md:pb-12 sm:py-16'>
+            <div className='w-full flex flex-col items-center justify-center bg-black/90 p-10 2xl:p-2 xl:p-12 md:p-4 md:pb-12 sm:py-8'>
                 <div className='flex items-center justify-center my-4  '>
-                    <h1 className={`w-full text-white text-center text-7xl font-extrabold 2xl:text-6xl xl:text-6xl lg:5xl md:text-4xl ${router === "/smallBusiness" ? "md:w-10/12 md:pt-24" : ""}`}>{title}<br /><span className='text-red-500'>{titleRemain}</span></h1>
+                    <h1 className={`w-full text-white text-center text-7xl font-extrabold 2xl:text-6xl xl:text-6xl lg:5xl md:text-4xl sm:text-5xl sm:leading-[4rem] ${router === "/smallBusiness" ? "md:w-10/12 md:pt-24" : ""}`}>{title}<br /><span className='text-red-500'>{titleRemain}</span></h1>
                 </div>
                 <div className='flex items-center justify-center mb-6'>
-                    <p className='text-2xl text-center text-white my-4 2xl:text-2xl 2xl:w-1/3 2xl:text-center xl:w-3/4 xl:text-xl md:text-base'>{subtitle}</p>
+                    <p className='text-2xl text-center text-white my-4 2xl:text-2xl 2xl:w-1/3 2xl:text-center xl:w-3/4 xl:text-xl md:text-base sm:w-full sm:text-base'>{subtitle}</p>
                 </div>
                 <div className='flex items-center justify-center gap-4 sm:flex sm:flex-col'>
-                    <Link href="/signup" className='bg-red-500 text-white hover:text-black py-4 px-10 text-xl xl:py-3 xl:px-7 xl:text-lg lg:text-base md:text-sm font-semibold rounded-lg'>Try Free For 14 Days</Link>
-                    <Link href="/signup" className='border-solid border-2 border-red-500 hover:border-white text-white hover:text-red-500 py-3 px-10 text-xl xl:py-2 xl:px-7 sm:px-12 xl:text-lg lg:text-base md:text-sm font-semibold rounded-lg'>Contact Sales</Link>
+                    <Link href="/signup" className='bg-red-500 text-white hover:text-black py-4 px-10 text-xl xl:py-3 xl:px-7 xl:text-lg lg:text-base md:text-sm sm:text-base sm:px-20 font-semibold rounded-lg'>Try Free For 14 Days</Link>
+                    <Link href="/signup" className='border-solid border-2 border-red-500 hover:border-white text-white hover:text-red-500 py-3 px-10 text-xl xl:py-2 xl:px-7 xl:text-lg lg:text-base md:text-sm sm:text-base sm:px-24 font-semibold rounded-lg'>Contact Sales</Link>
                 </div>
                 <div className='flex items-center justify-center mt-4'>
                     <p className='text-white text-lg lg:text-base md:text-sm'>No credit card required</p>
@@ -36,7 +36,7 @@ const HeroBanner = ({ title, titleRemain, subtitle }) => {
                 <div className="absolute top-80 right-[6%] xl:w-28 xl:right-[3%] 2xl:right-[15%] md:hidden">
                     <Image src={BannerArrow1} alt='arrow1' />
                 </div>
-                <div className={`relative -left-[650px] 2xl:relative -2xl:bottom-3 2xl:left-48 xl:w-16 xl:-left-96 ${router === '/smallBusiness' ? "md:bottom-[400px]" : "md:bottom-[350px]"} md:-left-52`}>
+                <div className={`relative -left-[650px] 2xl:relative -2xl:bottom-3 2xl:left-48 xl:w-16 xl:-left-96 ${router === '/smallBusiness' ? "md:bottom-[400px] sm:bottom-[520px]" : "md:bottom-[350px] sm:bottom-[465px]"} md:-left-52`}>
                     <Image src={BannerArrow2} alt='arrow2' />
                 </div>
                 <div className='flex items-center justify-center w-[1300px] xl:w-[700px] sm:w-[600px] '>

@@ -4,11 +4,11 @@ import HeroBanner from "@/components/GenericComponent/HeroBanner"
 import VideoSection from "@/components/Home/VideoSection/videoSection"
 import GenericSection from "@/components/GenericComponent/genericComponent"
 import GenericSocialSection from "@/components/GenericComponent/socialComponent";
-import reviewSection from "@/assets/images/banner/reviewSection.webp"
+import reviewSection from "@/assets/images/banner/reviewSection.png"
 import mike from '@/assets/images/logo/mike.webp';
 import review from '../../public/svg/review.svg';
 import avatar from "@/assets/images/logo/avatar.webp";
-import progress from "@/assets/images/banner/progress.webp";
+import progress from "@/assets/images/banner/progress.png";
 import brad from "@/assets/images/banner/brad.webp";
 import widget from '@/assets/images/banner/widget.webp';
 import VideoReview from "@/components/Home/VideoSection/videoReview";
@@ -50,7 +50,7 @@ export default function Home() {
     avatarSrc: brad,
     reviewerName: 'Brad C',
     reviewerOccupation: 'Director, Small Business',
-    reviewText: "It's a very easy to use platform, we can access all our customer feedback in one place, we can easily show off our good reviews on our website and across socials.'",
+    reviewText: "'It's a very easy to use platform, we can access all our customer feedback in one place, we can easily show off our good reviews on our website and across socials.'",
     reviewDate: 'Review Date',
     influencePercentage: '50%',
     findOutMoreLink: '/generate-reviews',

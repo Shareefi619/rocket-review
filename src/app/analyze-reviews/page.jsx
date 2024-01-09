@@ -2,7 +2,7 @@ import HeroBannerTwo from '@/components/GenericComponent/HeroBannerTwo';
 import NavBar from '@/components/Home/Navbar/NavBar';
 import React from 'react'
 import avatar from "@/assets/images/logo/avatar.webp";
-import browser from "../../../public/svg/browser.svg"
+import browser from "@/assets/images/banner/progress.png"
 import TrackTrends from '@/components/analyze-reviews/trackTrends';
 import competition from "@/assets/images/banner/competition.webp";
 import Review from '@/components/GenericComponent/review';

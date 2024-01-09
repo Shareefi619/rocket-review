@@ -30,7 +30,7 @@ const BrandLogo = () => {
                             key={index}
                             src={img} // Use the actual image source from the brandLogo array
                             alt="brand logo"
-                            className="mx-2 rounded-md xl:mx-0 md:mx-0 md:w-36"
+                            className="mx-2 rounded-md xl:mx-0 md:mx-0 md:w-36 sm:w-28"
                         />
                     ))}
                 </div>

@@ -113,14 +113,14 @@ const NavBar = () => {
                             className="flex flex-col p-2 mx-2 "
                           >
                             <div className="flex items-center gap-2 nav-sublink">
-                              <p className="text-xl font-semibold relative cursor-pointer lg:text-lg md:text-sm sm:text-xs">
+                              <p className="text-xl font-semibold relative cursor-pointer lg:text-lg md:text-sm sm:text-base">
                                 {subItem.title}
                               </p>
                               <span className="transition-transform duration-100 transform translate-x-2 ti-arrow hidden">
                                 <TiArrowRight />
                               </span>
                             </div>
-                            <p className="text-base py-1">{subItem.subTitle}</p>
+                            <p className="text-base py-1 sm:text-xs">{subItem.subTitle}</p>
                           </Link>
                         ))}
                       </div>

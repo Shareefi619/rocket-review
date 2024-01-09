@@ -12,13 +12,13 @@ const HeroBanner = () => {
     return (
         <>
             <section className='flex flex-col items-center justify-center p-12 xl:p-10 md:p-2 md:pb-20 bg-black/90'>
-                <div className='grid grid-cols-12 p-8 mt-16 xl:p-4 xl:mt-0 md:p-0 '>
+                <div className='grid grid-cols-12 p-8 mt-16 xl:p-4 xl:mt-0 md:p-0 sm:flex sm:flex-col sm:gap-6 sm:text-center '>
                     <div className='col-span-6'>
                         <div className='ml-4 xl:ml-2 md:ml-0'>
                             <Image src={BannerArrow2} className='w-20 md:w-14' alt='arrow2' />
                         </div>
                         <div className='flex items-center justify-center my-4 xl:my-0 '>
-                            <h1 className=' text-white w-10/12 text-center text-7xl xl:text-5xl md:text-4xl md:text-left font-extrabold'>Generate reviews <br /> on auto-pilot</h1>
+                            <h1 className=' text-white w-10/12 text-center text-7xl xl:text-5xl md:text-4xl md:text-left sm:text-center font-extrabold'>Generate reviews <br /> on auto-pilot</h1>
                         </div>
                         <div className='flex items-center justify-center mb-6 xl:mx-8'>
                             <p className='text-2xl text-white my-4 xl:text-xl md:text-lg'>Online reviews are core to your brand awareness. Get more reviews faster with Rocket Review Tool on 85+ websites, boost your social proof and increase your revenue.</p>

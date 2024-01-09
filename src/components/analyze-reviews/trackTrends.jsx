@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import trends from "@/assets/images/banner/track-trends.webp";
+import trends from "@/assets/images/banner/track-trends.png";
 const TrackTrends = () => {
     return (
         <>

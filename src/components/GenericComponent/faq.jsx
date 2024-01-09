@@ -28,7 +28,6 @@ const faqData = [
     },
 ];
 const Faq = () => {
-
     const [activeIndex, setActiveIndex] = useState(-1);
 
     const handleToggle = (index) => {
@@ -43,28 +42,26 @@ const Faq = () => {
         <>
             <section className='bg-blue-400 py-24 w3l-faq-6'>
                 <div className='max-w-[1300px] w-full my-0 mx-auto py-0 px-8'>
-                    <h2 className='text-5xl font-bold text-center mb-10 text-black leading-5 mx-auto lg:text-4xl'>Frequently asked questions</h2>
+                    <h2 className='text-5xl font-bold text-center mb-10 text-black leading-5 mx-auto lg:text-4xl sm:text-3xl'>Frequently asked questions</h2>
                     <div className="faq-pagev">
-                        <ul>
+                        <ul className="sm:block">
                             {faqData.map((faq, index) => (
-                                <li key={index}>
-                                    <input
-                                        type="checkbox"
-                                        checked={activeIndex === index}
-                                        onChange={() => handleToggle(index)}
-                                    />
-                                    <i />
-                                    <h4 className='lg:text-lg'>{faq.question}</h4>
+                                <li key={index} className="sm:w-full">
+                                    <h4
+                                        className='lg:text-lg sm:text-xl'
+                                        onClick={() => handleToggle(index)}
+                                    >
+                                        {faq.question}
+                                    </h4>
                                     {activeIndex === index && <p>{faq.answer}</p>}
                                 </li>
                             ))}
                         </ul>
                     </div>
-
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
 export default Faq;
