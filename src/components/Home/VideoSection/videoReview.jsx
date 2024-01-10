@@ -13,8 +13,8 @@ const VideoReview = () => {
     const router = usePathname();
 
     return (
-        <div className={`grid items-start justify-start grid-cols-12 md:flex md:flex-col md:items-center md:justify-center md:text-center p-24 xl:p-12 md:p-8 bg-white ${router === '/smallBusiness' ? 'bg-gray-100' : ''}`}  >
-            <div className='flex-col col-span-6 p-16 xl:p-8'>
+        <div className={`grid items-start justify-start grid-cols-12 md:flex md:flex-col md:items-center md:justify-center md:text-center p-24 xl:p-12 md:p-8 xs:p-0 xs:py-12 xxs:py-4 bg-white ${router === '/smallBusiness' ? 'bg-gray-100' : ''}`}  >
+            <div className='flex-col col-span-6 p-16 xl:p-8 xxs:p-2'>
                 <h1 className='font-bold text-black text-5xl p-6 xl:p-2 xl:text-4xl md:text-3xl'>Boost social proof with Video Reviews</h1>
                 <p className='text-2xl xl:text-xl md:text-lg text-black/70 p-6 xl:p-3 mb-12'>Check out our latest feature: video reviews. You can easily embed them on the landing page, and you can receive video testimonials from your customers. The recorded videos can be used for a variety of purposes: widgets, social media posts, and even ads.</p>
                 <Link href="/signup" className='bg-red-600 px-12 py-4 text-white hover:text-black font-bold rounded-lg text-xl m-8'> Get Started</Link>

@@ -17,9 +17,9 @@ const GenericSocialSection = ({
   altTextRight,
 }) => {
   return (
-    <div className='flex flex-col bg-blue-400 p-12 md:p-8 py-24'>
-      <h1 className='flex flex-col items-center justify-start text-black text-5xl md:text-3xl font-bold mb-4 sm:mb-0'>{title}</h1>
-      <div className='grid items-start justify-start grid-cols-12 p-24 xl:p-12 md:p-10 sm:flex sm:flex-col sm:gap-8'>
+    <div className='flex flex-col bg-blue-400 p-12 md:p-8 py-24 xs:p-0 xs:py-12'>
+      <h1 className='flex flex-col items-center justify-start text-black text-5xl md:text-3xl xs:text-center font-bold mb-4 sm:mb-0 xxs:mb-4'>{title}</h1>
+      <div className='grid items-start justify-start grid-cols-12 p-24 xl:p-12 md:p-10 xxs:p-2 sm:flex sm:flex-col sm:gap-8'>
         <div className='col-span-6'>
           <div className='flex items-start justify-start'>
             <Image src={avatarSrc} alt='avatar' className='w-28'/>

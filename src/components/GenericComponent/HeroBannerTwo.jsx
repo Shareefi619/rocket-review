@@ -11,7 +11,7 @@ const HeroBannerTwo = ({title, subtitle, imgtitle, imgSrc, imgPosition, person ,
             <section className='flex flex-col items-center justify-center p-12 lg:p-2 md:p-1 lg:pb-16 md:pb-14 bg-black/90'>
                 <div className='grid grid-cols-12 p-8 md:p-4 mt-16 xl:mt-8 lg:mt-6 sm:flex sm:flex-col sm:gap-4'>
                     <div className='col-span-6 sm:flex sm:flex-col sm:items-center sm:justify-center sm:relative'>
-                        <div className='ml-4 sm:ml-0 sm:absolute sm:left-0 sm:bottom-96'>
+                        <div className='ml-4 sm:ml-0 sm:absolute sm:left-0 sm:bottom-96 xxs:bottom-[430px]'>
                             <Image src={BannerArrow2} className='w-20 sm:w-10' alt='arrow2' />
                         </div>
                         <div className='flex items-center justify-center my-4 '>

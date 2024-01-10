@@ -50,7 +50,7 @@ const NavBar = () => {
   return (
     <>
       <nav
-        className="menu-top w-full sm:w-max-[650px] flex items-center justify-center gap-28 py-5 px-12 2xl:px-0 2xl:py-6 2xl:gap-0 xl:px-8 xl:py-6 xl:gap-0 bg-black/90">
+        className="menu-top w-full sm:w-max-[650px] xs:w-max-[340px] xxs:w-max-[340px] flex items-center justify-center gap-28 py-5 px-12 2xl:px-0 2xl:py-6 2xl:gap-0 xl:px-8 xl:py-6 xl:gap-0 bg-black/90">
         {/* Navbar */}
         <div className="responsive-menu flex items-center justify-center gap-24 2xl:gap-6 xl:gap-6">
           <Link
@@ -104,13 +104,13 @@ const NavBar = () => {
                   {showSubMenu === index &&
                     item.has_dropdown &&
                     item.sub_menus && (
-                      <div className="sub-menu absolute rounded-md right-1 mt-2 p-4 lg:p-2 w-[500px] xl:w-[480px] bg-white lg:bg-white text-black flex flex-col shadow-md lg:shadow-none z-10">
+                      <div className="sub-menu absolute rounded-md right-1 sm:right-0 mt-2 p-4 sm:p-0 lg:p-2 w-[500px] xl:w-[480px] xs:w-[300px] xxs:w-[250px] bg-white text-black flex flex-col shadow-md lg:shadow-none z-10">
                         {/* Nested pages */}
                         {item.sub_menus.map((subItem, subIndex) => (
                           <Link
                             key={subIndex}
                             href={subItem.link}
-                            className="flex flex-col p-2 mx-2 "
+                            className="flex flex-col p-2 mx-2 sm:p-0 sm:mx-0 "
                           >
                             <div className="flex items-center gap-2 nav-sublink">
                               <p className="text-xl font-semibold relative cursor-pointer lg:text-lg md:text-sm sm:text-base">

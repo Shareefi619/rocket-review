@@ -18,7 +18,7 @@ const BrandLogo = () => {
                     <div className="text-center w-1/2 md:w-full">
                         <div className="flex items-center justify-center">
                             <div className="flex-1 border-t border-gray-300"></div>
-                            <div className="mx-4 text-black text-lg md:text-sm uppercase font-bold">1000+ COMPANIES TRUST Rocket Review Tool</div>
+                            <div className="mx-4 text-black text-lg md:text-sm xs:text-xs uppercase font-bold">1000+ COMPANIES TRUST Rocket Review Tool</div>
                             <div className="flex-1 border-t border-gray-300"></div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const BrandLogo = () => {
                             key={index}
                             src={img} // Use the actual image source from the brandLogo array
                             alt="brand logo"
-                            className="mx-2 rounded-md xl:mx-0 md:mx-0 md:w-36 sm:w-28"
+                            className="mx-2 rounded-md xl:mx-0 md:mx-0 md:w-36 sm:w-28 xs:w-24 xxs:w-16"
                         />
                     ))}
                 </div>

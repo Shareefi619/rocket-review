@@ -3,7 +3,7 @@ import React from 'react'
 const ReviewSection = () => {
     return (
         <>
-            <section className='pt-28 pb-24 bg-white'>
+            <section className='pt-28 pb-24 bg-white xxs:pt-20 xxs:pb-14'>
                 <div className='max-w-[1170px] w-full my-0 mx-auto py-0 px-8'>
                     <div className='flex flex-col'>
                         <div className='flex'>

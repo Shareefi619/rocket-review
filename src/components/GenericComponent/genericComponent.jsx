@@ -16,9 +16,9 @@ const GenericSection = ({
   findOutMoreLink,
 }) => {
   return (
-    <div className='flex flex-col bg-white p-12 md:p-8 py-24'>
-      <h1 className='flex flex-col items-center justify-start text-black text-5xl md:text-3xl font-bold mb-4 sm:mb-0'>{title}</h1>
-      <div className='grid items-start justify-start grid-cols-12 p-24 xl:p-12 sm:flex sm:flex-col sm:gap-8'>
+    <div className='flex flex-col bg-white p-12 md:p-8 py-24 xs:p-0 xs:py-12'>
+      <h1 className='flex flex-col items-center justify-start text-black text-5xl md:text-3xl xxs:text-center font-bold mb-4 sm:mb-0'>{title}</h1>
+      <div className='grid items-start justify-start grid-cols-12 p-24 xl:p-12 xxs:p-2 sm:flex sm:flex-col sm:gap-8'>
         <div className='col-span-6 sm:hidden'>
           <div className='flex items-center justify-center w-auto h-auto pr-12'>
             <Image src={imageSrc} alt={altText} width={1500} height={1500} />
@@ -28,12 +28,12 @@ const GenericSection = ({
           <div className='flex items-start justify-start'>
             <Image src={avatarSrc} alt='avatar' className='w-12 rounded-3xl' />
             <div>
-              <p className='ml-2 text-lg'>
+              <p className='ml-2 text-lg xxs:text-sm'>
                 <strong>{reviewerName}</strong>
                 <br />
                 {reviewerOccupation}
               </p>
-              <p className='text-black/80 font-serif font-normal text-3xl my-10 xl:text-2xl md:text-xl xl:my-7'>{reviewText}</p>
+              <p className='text-black/80 font-serif font-normal text-3xl my-10 xxs:my-2 xl:text-2xl md:text-xl xxs:text-base xl:my-7'>{reviewText}</p>
               <div className='flex gap-4 mb-4 sm:mb-2'>
                 <p className='mt-2'>{`Reviewed on ${reviewDate}`}</p>
                 <Image src={review} alt='review' className='w-10 xl:w-8' />
@@ -55,7 +55,7 @@ const GenericSection = ({
           </div>
         </div>
         <div className='col-span-6 sm:block hidden'>
-          <div className='flex items-center justify-center w-auto h-auto pr-12'>
+          <div className='flex items-center justify-center w-auto h-auto pr-12 xs:pr-0'>
             <Image src={imageSrc} alt={altText} width={1500} height={1500} />
           </div>
         </div>

@@ -48,7 +48,7 @@ const Faq = () => {
                             {faqData.map((faq, index) => (
                                 <li key={index} className="sm:w-full">
                                     <h4
-                                        className='lg:text-lg sm:text-xl'
+                                        className='lg:text-lg sm:text-xl xxs:text-xs'
                                         onClick={() => handleToggle(index)}
                                     >
                                         {faq.question}

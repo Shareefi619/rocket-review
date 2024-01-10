@@ -30,16 +30,16 @@ const Widgets = () => {
 
     const index = 2;
     return (
-        <section className='bg-white flex items-center justify-center pt-28 pb-24'>
+        <section className='bg-white flex items-center justify-center pt-28 pb-24 xxs:pt-20 xxs:pb-16'>
             <div className='max-w-[1170px] w-full my-0 mx-auto box-border flex flex-col'>
                 <div className='flex flex-col items-center justify-center'>
                     <div className='flex flex-col'>
-                        <h1 className='text-7xl md:text-5xl mb-16 text-black leading-5 mx-auto text-center font-bold'>Widgets</h1>
-                        <p className='max-w-[550px] text-2xl md:text-xl leading-8 text-black/75 my-0 mx-auto text-center'>Widgets are one of the most powerful way to showcase your reviews.</p>
+                        <h1 className='text-7xl md:text-5xl xxs:text-4xl mb-16 xxs:mb-10 text-black leading-5 mx-auto text-center font-bold'>Widgets</h1>
+                        <p className='max-w-[550px] text-2xl md:text-xl xxs:text-lg leading-6 text-black/75 my-0 mx-auto text-center'>Widgets are one of the most powerful way to showcase your reviews.</p>
                     </div>
-                    <div className="border-2 border-gray-200 dark:border-gray-700 mt-10 mr-[180px] md:mr-[50px]">
+                    <div className="border-2 border-gray-200 dark:border-gray-700 mt-10 mr-[180px] md:mr-[50px] xs:mr-0">
                         <ul
-                            className="flex flex-wrap sm:flex-col sm:px-44 text-2xl md:text-base font-bold text-center"
+                            className="flex flex-wrap sm:flex-col sm:px-44 xs:px-36 xxs:px-20 text-2xl md:text-base font-bold text-center"
                             id="default-tab"
                             data-tabs-toggle="#default-tab-content"
                             role="tablist"
@@ -134,10 +134,10 @@ const Widgets = () => {
                             </li>
                         </ul>
                     </div>
-                    <div id="default-tab-content" className='w-[900px] md:w-[700px] sm:w-[600px]'>
+                    <div id="default-tab-content" className='w-[900px] md:w-[700px] sm:w-[600px] xs:w-[500px] xxs:w-[340px]'>
                         <div
                             className={`${activeTab === 'Slider' ? 'block' : 'hidden'
-                                } p-20 rounded-lg bg-white border-2`}
+                                } p-20 rounded-lg bg-white border-2 xs:p-6 xxs:p-0`}
                             id="Slider"
                             role="tabpanel"
                             aria-labelledby="Slider-tab"
@@ -240,7 +240,7 @@ const Widgets = () => {
                             role="tabpanel"
                             aria-labelledby="Carousel-tab"
                         >
-                            <div className='w-[900px] md:w-[700px] sm:w-[600px] mb-12 flex items-center justify-center gap-4 py-16 px-6'>
+                            <div className='w-[900px] md:w-[700px] sm:w-[600px] xs:w-[500px] xxs:w-[340px] mb-12 flex items-center justify-center gap-4 py-16 px-6'>
                                 <div className='w-[400px] flex flex-col items-center justify-center gap-4'>
                                     <div className='flex gap-1'>
                                         <Image src={starfull} width={16} height={16} alt='star-full' />
@@ -305,7 +305,7 @@ const Widgets = () => {
                             role="tabpanel"
                             aria-labelledby="Grid-tab"
                         >
-                            <div className='flex flex-col items-center justify-center gap-4 md:gap-2 w-[900px] md:w-[700px] sm:w-[600px] my-6'>
+                            <div className='flex flex-col items-center justify-center gap-4 md:gap-2 w-[900px] md:w-[700px] sm:w-[600px] xs:w-[480px] xxs:w-[340px] my-6'>
                                 <div className='flex bg-white m-5 p-5 md:m-2 border-2 border-solid rounded-md mx-2' style={{ borderColor: "rgb(230, 230, 234)" }}>
                                     <div className='flex flex-col items-start justify-start'>
                                         <p className='m-0 text-5xl md:text-3xl font-semibold'>4.7</p>
@@ -318,7 +318,7 @@ const Widgets = () => {
                                             <Image src={star} width={16} height={16} alt='star-full' />
                                         </div>
                                     </div>
-                                    <div className='flex gap-2 items-end my-6 justify-end w-[500px] sm:w-[300px]'>
+                                    <div className='flex gap-2 items-end my-6 justify-end w-[500px] sm:w-[300px] xxs:hidden '>
                                         <Image src={triangle} alt='triangle' className='md:w-12'/>
                                         <Image src={whiteStar} alt='whiteStar' className='md:w-12'/>
                                         <Image src={facebook} alt='facebook' className='md:w-12'/>
@@ -373,12 +373,12 @@ const Widgets = () => {
 
                         <div
                             className={`${activeTab === 'Quotes' ? 'block' : 'hidden'
-                                } p-4 rounded-lg bg-white border-2`}
+                                } p-4 rounded-lg xxs:p-0 bg-white border-2`}
                             id="Quotes"
                             role="tabpanel"
                             aria-labelledby="Quotes-tab"
                         >
-                            <div className='flex flex-col gap-6 my-16 mx-8'>
+                            <div className='flex flex-col gap-6 my-16 mx-8 xxs:mx-0'>
                                 <div className='flex flex-col gap-4 mx-8 mb-14 '>
                                     <Image src={comma} alt='comma' width={70} />
                                     <p className='text-left m-[0.5rem 0px 1.5rem] text-lg text-black/75'>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun and excitement it provides, others may experience gambling as an addictive.</p>
@@ -398,7 +398,7 @@ const Widgets = () => {
                                                     <Image src={amazon} alt='amazon' />
                                                 </div>
                                             </div>
-                                            <div className='flex flex-start gap-4'>
+                                            <div className='flex flex-start gap-4 xxs:gap-8'>
                                                 <div className='flex gap-1'>
                                                     <Image src={starfull} width={16} height={16} alt='star-full' />
                                                     <Image src={starfull} width={16} height={16} alt='star-full' />
@@ -426,14 +426,14 @@ const Widgets = () => {
                                         </div>
                                         <div className='flex flex-col ml-2 mt-0'>
                                             <div className='flex gap-3'>
-                                                <h1 className='mb-2 text-lg font-semibold text-black'>
+                                                <h1 className='mb-2 text-lg font-semibold text-black xxs:text-sm'>
                                                     Richard Maxwell
                                                 </h1>
                                                 <div className='w-6  rounded-md'>
                                                     <Image src={triangle} alt='triangle' />
                                                 </div>
                                             </div>
-                                            <div className='flex flex-start gap-4'>
+                                            <div className='flex flex-start gap-4 xxs:gap-8'>
                                                 <div className='flex gap-1'>
                                                     <Image src={starfull} width={16} height={16} alt='star-full' />
                                                     <Image src={starfull} width={16} height={16} alt='star-full' />
