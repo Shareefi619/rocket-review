@@ -15,6 +15,10 @@ module.exports = {
     },
 
     screens: {
+
+      "3xl": { max: "3080px" },
+      // => @media (max-width: 3080px) { ... }
+
      "2xl": { max: "1535px" },
       // => @media (max-width: 1535px) { ... }
 
@@ -33,6 +37,7 @@ module.exports = {
       "xs": { max: "480px" },
       // => @media (max-width: 479px) { ... }
       "xxs": { max: "340px" },
+      // => @media (max-width: 340px) { ... }
     },
   },
   plugins: [],

@@ -134,10 +134,10 @@ const Widgets = () => {
                             </li>
                         </ul>
                     </div>
-                    <div id="default-tab-content" className='w-[900px] md:w-[700px] sm:w-[600px] xs:w-[500px] xxs:w-[340px]'>
+                    <div id="default-tab-content" className='w-full'>
                         <div
                             className={`${activeTab === 'Slider' ? 'block' : 'hidden'
-                                } p-20 rounded-lg bg-white border-2 xs:p-6 xxs:p-0`}
+                                } p-20 rounded-lg bg-white border-2 xs:p-6 xxs:p-4`}
                             id="Slider"
                             role="tabpanel"
                             aria-labelledby="Slider-tab"
@@ -240,7 +240,7 @@ const Widgets = () => {
                             role="tabpanel"
                             aria-labelledby="Carousel-tab"
                         >
-                            <div className='w-[900px] md:w-[700px] sm:w-[600px] xs:w-[500px] xxs:w-[340px] mb-12 flex items-center justify-center gap-4 py-16 px-6'>
+                            <div className='w-full mb-12 flex items-center justify-center gap-4 py-16 px-6'>
                                 <div className='w-[400px] flex flex-col items-center justify-center gap-4'>
                                     <div className='flex gap-1'>
                                         <Image src={starfull} width={16} height={16} alt='star-full' />
@@ -305,7 +305,7 @@ const Widgets = () => {
                             role="tabpanel"
                             aria-labelledby="Grid-tab"
                         >
-                            <div className='flex flex-col items-center justify-center gap-4 md:gap-2 w-[900px] md:w-[700px] sm:w-[600px] xs:w-[480px] xxs:w-[340px] my-6'>
+                            <div className='flex flex-col items-center justify-center gap-4 md:gap-2 w-full my-6'>
                                 <div className='flex bg-white m-5 p-5 md:m-2 border-2 border-solid rounded-md mx-2' style={{ borderColor: "rgb(230, 230, 234)" }}>
                                     <div className='flex flex-col items-start justify-start'>
                                         <p className='m-0 text-5xl md:text-3xl font-semibold'>4.7</p>
@@ -373,7 +373,7 @@ const Widgets = () => {
 
                         <div
                             className={`${activeTab === 'Quotes' ? 'block' : 'hidden'
-                                } p-4 rounded-lg xxs:p-0 bg-white border-2`}
+                                } p-4 rounded-lg xxs:p-2 bg-white border-2`}
                             id="Quotes"
                             role="tabpanel"
                             aria-labelledby="Quotes-tab"
@@ -472,7 +472,7 @@ const Widgets = () => {
                                             <h1 className='mb-2 text-lg font-semibold text-black'>
                                                 Isabel Black
                                             </h1>
-                                            <div className='flex flex-start gap-4'>
+                                            <div className='flex flex-start gap-4 xxs:flex-col'>
                                                 <div className='flex gap-1'>
                                                     <Image src={starfull} width={16} height={16} alt='star-full' />
                                                     <Image src={starfull} width={16} height={16} alt='star-full' />
@@ -493,7 +493,7 @@ const Widgets = () => {
                                             <div className='w-20 overflow-hidden rounded-md'>
                                                 <Image src={richard} alt='richard' />
                                             </div>
-                                            <div className='absolute w-8 p-1 bg-white rounded-md -bottom-[2px] -right-[11px]'>
+                                            <div className='absolute w-8 p-1 bg-white rounded-md -bottom-[2px] xxs:bottom-7 -right-[11px]'>
                                                 <Image src={triangle} alt='triangle' />
                                             </div>
                                         </div>
@@ -501,7 +501,7 @@ const Widgets = () => {
                                             <h1 className='mb-2 text-lg font-semibold text-black'>
                                                 Richard Maxwell
                                             </h1>
-                                            <div className='flex flex-start gap-4'>
+                                            <div className='flex flex-start gap-4 xxs:flex-col'>
                                                 <div className='flex gap-1'>
                                                     <Image src={starfull} width={16} height={16} alt='star-full' />
                                                     <Image src={starfull} width={16} height={16} alt='star-full' />

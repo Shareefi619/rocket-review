@@ -46,7 +46,7 @@ const HeroBanner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-full flex items-center justify-center bg-white px-4 py-2 mt-16 mx-36 xl:px-2 md:px-0 md:mx-0 rounded-lg md:hidden'>
+                <div className='w-full 3xl:w-[1420px] flex items-center justify-center bg-white px-4 py-2 mt-16 mx-36 xl:px-2 md:px-0 md:mx-0 rounded-lg md:hidden'>
                     <Image src={comma} alt='comma' className='relative w-40 bottom-10 right-4 xl:w-20 md:w-14' />
                     <div>
                         <p className='text-2xl font-bold right-9 bottom-8 xl:text-lg'>"We have generated over 2,000 reviews for our clients using Rocket Review Tool."</p>
