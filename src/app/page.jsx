@@ -30,7 +30,7 @@ export default function Home() {
   };
 
   const progressData = {
-    title: 'Track your progress',
+    title: 'Easily track your progress',
     imageSrc: progress,
     altText: "increase in review interactions compared to pre-pandemic levels",
     avatarSrc: avatar,
@@ -74,9 +74,10 @@ export default function Home() {
   };
 
   const heroData = {
-    title: "The new standard in",
-    titleRemain: "review management",
-    subtitle: "The all-in-one tool to generate reviews, boost your and and keep up-to-date with your reputation."
+    title: "Make your business more",
+    titleRemain: "trustable",
+    title2: "with ease",
+    subtitle: "Generate Reviews hassel-free, boost your reputation, and make reviews work for you!"
   };
 
   return (
@@ -85,8 +86,8 @@ export default function Home() {
       <main>
         <HeroBanner {...heroData} />
         <VideoSection />
-        <GenericSection {...reviewData} />
-        <GenericSocialSection {...socialData} />
+        {/* <GenericSection {...reviewData} />
+        <GenericSocialSection {...socialData} /> */}
         <GenericSection {...progressData} />
         <GenericSocialSection {...socialData2} />
         <VideoReview />

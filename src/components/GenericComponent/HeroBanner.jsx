@@ -15,24 +15,24 @@ import localclarity from "../../../public/svg/localclarity.svg";
 import pwc from "../../../public/svg/pwc.svg";
 const brandLogo = [samsung, pwc, localclarity, crowncaliber, keystone];
 import { usePathname } from 'next/navigation';
-const HeroBanner = ({ title, titleRemain, subtitle }) => {
+const HeroBanner = ({ title, titleRemain, title2, subtitle }) => {
     const router = usePathname();
     return (
         <>
             <div className='w-full flex flex-col items-center justify-center bg-black/90 p-10 2xl:p-2 xl:p-12 md:p-4 md:pb-12 sm:py-8 xs:py-8 xs:p-2 xxs:py-16'>
                 <div className='flex items-center justify-center my-4 xs:my-0'>
-                    <h1 className={`w-full text-white text-center text-7xl font-extrabold 2xl:text-6xl xl:text-6xl lg:5xl md:text-4xl sm:text-5xl sm:leading-[4rem] xs:text-4xl xxs:text-3xl ${router === "/smallBusiness" ? "md:w-10/12 md:pt-24 xxs:pt-16" : ""}`}>{title}<br /><span className='text-red-500'>{titleRemain}</span></h1>
+                    <h1 className={`w-full text-white text-center text-7xl font-extrabold 2xl:text-6xl xl:text-6xl lg:5xl md:text-4xl sm:text-5xl sm:leading-[4rem] xs:text-4xl xxs:text-3xl ${router === "/smallBusiness" ? "md:w-10/12 md:pt-24 xxs:pt-16" : ""}`}>{title}<br /><span className='text-red-600'>{titleRemain}</span> <span>{title2}</span></h1>
                 </div>
                 <div className='flex items-center justify-center mb-6'>
                     <p className='text-2xl text-center text-white my-4 2xl:text-2xl 2xl:w-1/3 2xl:text-center xl:w-3/4 xl:text-xl md:text-base sm:w-full sm:text-base'>{subtitle}</p>
                 </div>
-                <div className='flex items-center justify-center gap-4 sm:flex sm:flex-col'>
-                    <Link href="/signup" className='bg-red-500 text-white hover:text-black py-4 px-10 text-xl xl:py-3 xxs:px-14 xl:px-7 xl:text-lg lg:text-base md:text-sm sm:text-base sm:px-20 font-semibold rounded-lg'>Try Free For 14 Days</Link>
-                    <Link href="/signup" className='border-solid border-2 border-red-500 hover:border-white text-white hover:text-red-500 py-3 px-10 xxs:px-20 text-xl xl:py-2 xl:px-7 xl:text-lg lg:text-base md:text-sm sm:text-base sm:px-24 font-semibold rounded-lg'>Contact Sales</Link>
+                <div className='flex items-center justify-center sm:flex sm:flex-col'>
+                    <Link href="/signup" className='bg-red-600 text-white hover:text-black py-4 px-10 text-xl xl:py-3 xxs:px-14 xl:px-7 xl:text-lg lg:text-base md:text-sm sm:text-base sm:px-20 font-semibold rounded-lg'>Fuel the rocket here</Link>
+                    {/* <Link href="/signup" className='border-solid border-2 border-red-500 hover:border-white text-white hover:text-red-600 py-3 px-10 xxs:px-20 text-xl xl:py-2 xl:px-7 xl:text-lg lg:text-base md:text-sm sm:text-base sm:px-24 font-semibold rounded-lg'>Contact Sales</Link> */}
                 </div>
-                <div className='flex items-center justify-center mt-4'>
+                {/* <div className='flex items-center justify-center mt-4'>
                     <p className='text-white text-lg lg:text-base md:text-sm'>No credit card required</p>
-                </div>
+                </div> */}
                 <div className="absolute top-80 right-[6%] xl:w-28 xl:right-[3%] 2xl:right-[15%] md:hidden">
                     <Image src={BannerArrow1} alt='arrow1' />
                 </div>

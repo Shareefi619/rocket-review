@@ -131,11 +131,11 @@ const NavBar = () => {
 
             {/* Right section with Login and Try Free button */}
             <div className="right flex items-center justify-center space-x-6 text-xl ml-56 xl:ml-40">
-              <Link href="/login" className="text-white lg:text-black hover:text-red-500">
+              <Link href="https://login.rocketreviewtool.com/auth/login" className="text-white lg:text-black hover:text-red-500">
                 Login
               </Link>
-              <button className="bg-red-500/90 text-black font-semibold px-12 py-4 rounded-lg hover:text-white xl:py-2 xl:text-base xl:px-8">
-                Try Free
+              <button className="bg-red-500/90 text-white font-semibold px-12 py-4 rounded-lg hover:text-black xl:py-2 xl:text-base xl:px-8">
+                Start today
               </button>
             </div>
           </div>

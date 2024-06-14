@@ -21,7 +21,7 @@ const HeroBannerTwo = ({title, subtitle, imgtitle, imgSrc, imgPosition, person ,
                             <p className='text-2xl w-11/12 text-white xl:w-full xl:text-xl lg:text-lg md:text-base sm:text-center my-4'>{subtitle}</p>
                         </div>
                         <div className='flex items-start justify-start gap-4 ml-8 xl:ml-0 lg:ml-0 md:ml-0 md:flex md:flex-col md:items-center md:justify-center '>
-                            <Link href="/signup" className='bg-red-500 text-black hover:text-white py-4 px-10 text-xl xl:py-3 xl:px-7 md:text-lg  font-semibold rounded-lg'>Try Free For 14 Days</Link>
+                            <Link href="/signup" className='bg-red-500 text-black hover:text-white py-4 px-10 text-xl xl:py-3 xl:px-7 md:text-lg  font-semibold rounded-lg'>sign up</Link>
                             <Link href="/signup" className='border-solid border-2 border-red-500 hover:border-white text-red-500 hover:text-white py-3 px-10 text-xl md:text-lg md:py-2 md:px-14 xl:px-7 font-semibold rounded-lg'>Contact Sales</Link>
                         </div>
                         <div className='flex items-start justify-start mt-4 ml-52 xl:ml-40 md:ml-28 sm:ml-0'>

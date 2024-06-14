@@ -15,15 +15,16 @@ import Banner from '@/components/Home/Banner/banner';
 import Footer from '@/components/Footer/footer';
 const SmallBusiness = () => {
   const heroData = {
-    title: "Your customers aren't waiting around to leave you a review",
-    titleRemain: "",
+    title: "An innovative way to reach",
+    titleRemain: "out to your customers",
     subtitle: "One tool to generate, manage, market and analyze online reviews."
   };
 
   const inviteData = {
     title: "Invite your customers to review",
     subtitle: "Send email and SMS invitations to your customers and segment for positive and negative sentiment with funnel optimized landing pages.",
-    imgSrc: invite
+    imgSrc: invite,
+    data: "Get more reviews"
   }
 
   const reviewData = {
@@ -35,7 +36,8 @@ const SmallBusiness = () => {
   const visualData = {
     title: "Get visual insights",
     subtitle: "See what potential customers see - your performance over time and compared with your competitors. You are what you measure.",
-    imgSrc: sentiment
+    imgSrc: sentiment,
+    data: "Get more insights"
   }
 
   const visitorData = {
@@ -47,7 +49,9 @@ const SmallBusiness = () => {
   const scaleData = {
     title:"Scale your business with more reviews.",
     subtitle: "The cycle is complete - get more reviews, be found online and attract new customers, and grow your business.",
-    imgSrc: scale
+    imgSrc: scale,
+    data: "Scale business here"
+
   }
   return (
     <main>
@@ -60,7 +64,7 @@ const SmallBusiness = () => {
       <Invitation {...scaleData} />
       <Pricing/>
       <ReviewSection/>
-      <VideoReview/>
+      {/* <VideoReview/> */}
       <Faq/>
       <Banner/>
       <Footer/>

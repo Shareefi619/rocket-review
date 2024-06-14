@@ -47,7 +47,7 @@ const GenericSection = ({
                 </p>
               </div>
               <div className='flex mt-8 px-4 sm:px-0 sm:mt-4'>
-                <Link href={findOutMoreLink} className='border-[3px] border-red-500 hover:border-black rounded-lg py-3 px-10 text-2xl xl:py-2 xl:px-7 xl:text-xl text-red-500 hover:text-black'>
+                <Link href={findOutMoreLink} className='border-[3px] border-red-500 hover:border-black rounded-lg py-3 px-10 text-2xl font-bold xl:py-2 xl:px-7 xl:text-xl text-red-500 hover:text-black'>
                   Find out more &#x2192;
                 </Link>
               </div>

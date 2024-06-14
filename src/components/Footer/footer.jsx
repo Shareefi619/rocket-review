@@ -40,10 +40,10 @@ const Footer = () => {
           <div className='col-span-2 flex-col px-10 text-xl xl:text-lg lg:text-base md:text-sm'>
             <h1 className='text-red-600 font-bold pb-6'>Solutions</h1>
             <div className='mb-8 xl:mb-4'>
-              <Link href="/small-business" className=' hover:text-blue-500 text-white'> Small business</Link>
+              <Link href="/smallBusiness" className=' hover:text-blue-500 text-white'> Small business</Link>
             </div>
           </div>
-          <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
+          {/* <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
             <h1 className='text-red-600 font-bold pb-6'>Comparison</h1>
             <div className='mb-8 xl:mb-4'>
               <Link href="/gradeus" className=' hover:text-blue-500 text-white'> Grade.us</Link>
@@ -69,7 +69,7 @@ const Footer = () => {
             <div className='mb-8 xl:mb-4'>
               <Link href="/proveSource" className=' hover:text-blue-500 text-white'> ProveSource </Link>
             </div>
-          </div>
+          </div> */}
           <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
             <h1 className='text-red-600 font-bold  pb-6'>Company</h1>
             <div className='mb-8 xl:mb-4'>
@@ -84,17 +84,17 @@ const Footer = () => {
           </div>
           <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
             <h1 className='text-red-600 font-bold  pb-6'>Resources</h1>
-            <div className='mb-8 xl:mb-4'>
+            {/* <div className='mb-8 xl:mb-4'>
               <Link href="/brand-audit" className=' hover:text-blue-500 text-white'> Free business scan </Link>
-            </div>
+            </div> */}
             <div className='mb-8 xl:mb-4 '>
-              <Link href="/roadmap" className='flex gap-4 md:gap-2  hover:text-blue-500 text-white'> Roadmap <Image src={link} /> </Link>
+              <Link href="/roadmap" className='flex gap-4 md:gap-2  hover:text-blue-500 text-white'> FAQ <Image src={link} /> </Link>
             </div>
             <div className='mb-8 xl:mb-4 '>
               <Link href="/blog" className='flex gap-4 md:gap-2  hover:text-blue-500 text-white'> Blog <Image src={link} /> </Link>
             </div>
           </div>
-          <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
+          {/* <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
             <h1 className='text-red-600 font-bold pb-6'>Resources</h1>
             <div className='mb-8 xl:mb-4 '>
               <Link href="/help" className='flex gap-4 md:gap-2 hover:text-blue-500 text-white'> Help <Image src={link} /> </Link>
@@ -109,7 +109,7 @@ const Footer = () => {
               <Link href="/faq" className='flex gap-4 md:gap-2 hover:text-blue-500 text-white'> FAQ <Image src={link} /> </Link>
             </div>
 
-          </div>
+          </div> */}
         </div>
         <div className='sm:flex sm:flex-col sm:pb-16 hidden'>
           <div className='col-span-2 flex-col'>
@@ -137,10 +137,10 @@ const Footer = () => {
             <div className='col-span-2 flex-col  text-xl xl:text-lg lg:text-base md:text-sm'>
               <h1 className='text-red-600 font-bold pb-6'>Solutions</h1>
               <div className='mb-8 xl:mb-4'>
-                <Link href="/small-business" className=' hover:text-blue-500 text-white'> Small business</Link>
+                <Link href="/smallBusiness" className=' hover:text-blue-500 text-white'> Small business</Link>
               </div>
             </div>
-            <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
+            {/* <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
               <h1 className='text-red-600 font-bold pb-6'>Comparison</h1>
               <div className='mb-8 xl:mb-4'>
                 <Link href="/gradeus" className=' hover:text-blue-500 text-white'> Grade.us</Link>
@@ -166,7 +166,7 @@ const Footer = () => {
               <div className='mb-8 xl:mb-4'>
                 <Link href="/proveSource" className=' hover:text-blue-500 text-white'> ProveSource </Link>
               </div>
-            </div>
+            </div> */}
             <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
               <h1 className='text-red-600 font-bold  pb-6'>Company</h1>
               <div className='mb-8 xl:mb-4'>
@@ -184,17 +184,17 @@ const Footer = () => {
           <div className='flex gap-28 xs:gap-8' >
             <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
               <h1 className='text-red-600 font-bold  pb-6'>Resources</h1>
-              <div className='mb-8 xl:mb-4'>
+              {/* <div className='mb-8 xl:mb-4'>
                 <Link href="/brand-audit" className=' hover:text-blue-500 text-white'> Free business scan </Link>
-              </div>
+              </div> */}
               <div className='mb-8 xl:mb-4 '>
-                <Link href="/roadmap" className='flex gap-4 md:gap-2  hover:text-blue-500 text-white'> Roadmap <Image src={link} /> </Link>
+                <Link href="/roadmap" className='flex gap-4 md:gap-2  hover:text-blue-500 text-white'> FAQ <Image src={link} /> </Link>
               </div>
               <div className='mb-8 xl:mb-4 '>
                 <Link href="/blog" className='flex gap-4 md:gap-2  hover:text-blue-500 text-white'> Blog <Image src={link} /> </Link>
               </div>
             </div>
-            <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
+            {/* <div className='col-span-2 flex-col text-xl xl:text-lg lg:text-base md:text-sm'>
               <h1 className='text-red-600 font-bold pb-6'>Help</h1>
               <div className='mb-8 xl:mb-4 '>
                 <Link href="/help" className='flex gap-4 md:gap-2 hover:text-blue-500 text-white'> Help <Image src={link} /> </Link>
@@ -209,10 +209,10 @@ const Footer = () => {
                 <Link href="/faq" className='flex gap-4 md:gap-2 hover:text-blue-500 text-white'> FAQ <Image src={link} /> </Link>
               </div>
 
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className='grid grid-cols-12 xs:hidden text-xl xl:text-lg lg:text-base md:text-sm xs:flex xs:flex-col xs:items-center xs:justify-center'>
+        {/* <div className='grid grid-cols-12 xs:hidden text-xl xl:text-lg lg:text-base md:text-sm xs:items-center xs:justify-center'>
         <div className='flex gap-2 items-start justify-start col-span-6'>
           <p className=' text-white font-semibold'>© Rocket, a</p>
           <Image src={rocket} className='relative w-24 bottom-6' />
@@ -221,7 +221,19 @@ const Footer = () => {
         <div className='col-span-6 flex items-end justify-end  xs:items-center xs:justify-center pr-40 pb-8 sm:pr-0 sm:pb-14 xs:pb-4'>
           <Link href="/privacy-policy" className=' text-white font-medium'>Privacy Policy</Link>
         </div>
-      </div>
+      </div> */}
+        <div className='flex gap-6 items-center justify-center text-xl xl:text-lg lg:text-base md:text-sm xs:items-center xs:justify-center'>
+          <div className='flex items-center gap-2'>
+            <p className='text-white font-semibold'>© Rocket, a</p>
+            <Image src={rocket} className='w-24' />
+            <p className='text-white font-semibold'>company</p>
+            
+          </div>
+          <div className='flex items-center justify-center'>
+            <Link href="/privacy-policy" className='text-white font-medium'>Privacy Policy</Link>
+          </div>
+        </div>
+
       </div>
       <div className='text-xl bg-black/90 xl:text-lg hidden lg:text-base md:text-sm xs:flex xs:flex-col xs:items-center xs:justify-center'>
         <div className='flex gap-2 items-start justify-start'>

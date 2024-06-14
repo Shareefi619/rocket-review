@@ -24,7 +24,7 @@ const HeroBanner = () => {
                             <p className='text-2xl text-white my-4 xl:text-xl md:text-lg'>Online reviews are core to your brand awareness. Get more reviews faster with Rocket Review Tool on 85+ websites, boost your social proof and increase your revenue.</p>
                         </div>
                         <div className='flex items-center justify-center md:flex md:flex-col md:items-center md:justify-center gap-4 md:gap-4 '>
-                            <Link href="/signup" className='bg-red-500 text-black hover:text-white py-4 px-10 text-xl md:text-base md:py-2 md:px-6 xl:py-2 xl:px-8 xl:text-lg font-semibold rounded-lg'>Try Free For 14 Days</Link>
+                            <Link href="/signup" className='bg-red-500 text-black hover:text-white py-4 px-10 text-xl md:text-base md:py-2 md:px-6 xl:py-2 xl:px-8 xl:text-lg font-semibold rounded-lg'>Try Free for 14 Days</Link>
                             <Link href="/signup" className='border-solid border-2 border-red-500 hover:border-white text-red-500 hover:text-white py-3 px-10 text-xl md:text-base md:py-2 md:px-12 xl:py-2 xl:px-8 xl:text-lg font-semibold rounded-lg'>Contact Sales</Link>
                         </div>
                         <div className='flex items-center justify-center mt-4'>

@@ -18,7 +18,8 @@ const GenerateReviews = () => {
   const template = {
     imgSrc: templateImg,
     title: "Create templates without a hitch",
-    subtitle: "Our easy to use tools allow you to make your own beautiful email and SMS templates. You can add customer info (like name, email), and make it visually appealing by adding visuals or changing colors. You can even choose to send the invites from your own email address"
+    subtitle: "Our easy to use tools allow you to make your own beautiful email and SMS templates. You can add customer info (like name, email), and make it visually appealing by adding visuals or changing colors. You can even choose to send the invites from your own email address",
+    data: `See templates`
   }
 
   const campaignData = {
@@ -30,19 +31,22 @@ const GenerateReviews = () => {
   const inviteData = {
     title: "Seamlessly add customers to campaigns",
     subtitle: "Do you want to send campaigns to your existing customers? We make it easy with CSV imports, API access or Zapier integrations.",
-    imgSrc: customer
+    imgSrc: customer,
+    data: "see campaign"
   }
 
   const analyticData = {
     title: "Funnel analytics",
     subtitle: "Understand how your campaigns are performing with our funnel analytics. Use these metrics to measure efficiency and optimize your campaigns.",
-    imgSrc: funnel
+    imgSrc: funnel,
+    data: "Get your analytics today"
   }
 
   const formData = {
     title: "Invite your users with an opt-in form",
     subtitle: "Do you want an even easier way to send review requests to customers? Use our opt-in form on a tablet at your establishment to sign them up to campaigns.",
-    imgSrc: form
+    imgSrc: form,
+    data: "invitation form"
   }
 
   return (
@@ -55,7 +59,7 @@ const GenerateReviews = () => {
     <TemplateSection {...inviteData}/>
     <AnalyticSection {...analyticData}/>
     <TemplateSection {...formData}/>
-    <VideoReview />
+    {/* <VideoReview /> */}
     <Banner/>
     <Footer/>
 \    </main>
